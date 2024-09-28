@@ -1,24 +1,20 @@
-package task;
+package task.model;
 
-import java.util.Scanner;
-
-public class UserChessBoard {
+public class ChessModel {
 
     private int width;
     private int height;
 
-    int getWidth() {
+    public int getWidth() {
         return width;
     }
 
-    int getHeight() {
+    public int getHeight() {
         return height;
     }
 
-    public UserChessBoard(int width, int height) {
+    public ChessModel(int width, int height) {
         this.width = width;
         this.height = height;
     }
-
-
 }
